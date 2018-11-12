@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home Laravel Filemanager</title>
-  <link rel="shortcut icon" type="image/png" href="{{ asset('vendor/laravel-filemanager/img/folder.png') }}">
+  <title>Mastech Digital</title>
+  <link rel="shortcut icon" type="image/png" href="{{ asset('img/mastech-new-logo.png') }}">
+  <!-- <link rel="shortcut icon" type="image/png" href="{{ asset('vendor/laravel-filemanager/img/folder.png') }}"> -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
-    <h1 class="page-header">Integration Demo Page</h1>
+     <img src="{{asset('img/mastech-new-logo.png')}}">
+    <!-- <h1 class="page-header">Mastech Digital</h1> -->
     {{-- <div class="row">
       <div class="col-md-6">
         <h2>CKEditor</h2>
@@ -50,7 +52,7 @@
     </div> --}}
     <div class="row">
       <div class="col-md-12">
-        <h2>Embed file manager</h2>
+        <!-- <h2>Embed file manager</h2> -->
         <iframe src="/laravel-filemanager" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe>
       </div>
     </div>
