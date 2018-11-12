@@ -93,6 +93,17 @@ return [
         'image/png',
         'image/gif',
         'image/svg+xml',
+        'application/pdf',
+        'text/plain',
+        'application/msword',
+        'application/mspowerpoint',
+        'application/powerpoint',
+        'application/vnd.ms-excel',
+        'text/vnd.ms-word',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'application/vnd.ms-powerpoint',
+        'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
     ],
 
     // If true, image thumbnails would be created during upload
